@@ -1,5 +1,22 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# config.yml
 
+theme: jekyll-theme-minimal # Replace with your preferred Jekyll theme
 title: Isobel Abell
+description: PhD student, the University of Melbourne
+# repository: iabell/yourrepository # Update with your GitHub username and repository name
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# GitHub Pages settings
+remote_theme: jekyll/minimal # Replace with the theme you want to use
+plugins:
+  - jekyll-feed
+
+# Additional settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
