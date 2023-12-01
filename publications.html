@@ -3,129 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <title>Isobel Abell - Publications</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e6ffe6; /* Light green background color */
+            color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #4CAF50; /* Dark green header background color */
             color: #fff;
+            padding: 2em;
             text-align: center;
-            padding: 1em;
+            position: relative;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-            background-color: #444;
-            margin: 0;
+        header img {
+            width: 150px; /* Adjust the width of the circular photo */
+            height: 150px; /* Adjust the height of the circular photo */
+            border-radius: 50%; /* Create a circular shape */
+            display: block; /* Make the photo a block element */
+            margin: 0 auto 10px; /* Center the photo and add some space below it */
         }
 
-        nav li {
-            display: inline;
-            margin-right: 10px;
+        h1 {
+            margin-bottom: 0; /* Remove default margin below the heading */
+        }
+
+        nav {
+            background-color: #45a049; /* Dark green navigation background color */
+            padding: 0.5em;
+            text-align: center;
         }
 
         nav a {
             text-decoration: none;
             color: #fff;
+            margin: 0 1em;
             font-weight: bold;
         }
 
         main {
             padding: 20px;
             box-sizing: border-box;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         section {
             margin-bottom: 30px;
         }
 
-        .publication-box {
-            border: 1px solid #ddd;
-            background-color: #fff;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
+        article {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
-        .publication-box img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
+        footer {
+            background-color: #45a049; /* Dark green footer background color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Publications</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
+        <img src="photos/hiking_square.png" alt="Isobel Hiking">
+        <h1>Isobel Abell</h1>
     </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="publications.html">Publications</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
 
     <main>
         <section>
-            <h2>Journal Articles</h2>
+            <h2>Publications</h2>
             
-            <div class="publication-box">
-                <a href="https://pubmed.ncbi.nlm.nih.gov/37288288/" target="_blank">
-                    <img src="path-to-image-1.jpg" alt="Publication 1 Image">
-                    <p>Understanding the impact of disease and vaccine mechanisms on the importance of optimal vaccine allocation</p>
-                </a>
-            </div>
+            <!-- Example Publication Entry 1 -->
+            <article>
+                <h3>Understanding the impact of disease and vaccine mechanisms on the importance of optimal vaccine allocation</h3>
+                <p>Isobel Abell, James McCaw, Christopher Baker</p>
+                <p>Infectious Disease Modelling</p>
+                <p>May 2023</p>
+                <p><a href="#">https://pubmed.ncbi.nlm.nih.gov/37288288/</a></p>
+            </article>
 
-            <div class="publication-box">
-                <a href="link-to-journal-article-2" target="_blank">
-                    <img src="path-to-image-2.jpg" alt="Publication 2 Image">
-                    <p>Journal Article 2</p>
-                </a>
-            </div>
+            <!-- Example Publication Entry 2 -->
+            <article>
+                <h3>Rapid prototyping of models for COVID-19 outbreak detection in workplaces</h3>
+                <p>Isobel Abell, Cameron Zachreson, Eamon Conway, Nicholas Geard, Jodie McVernon, Thomas Waring, Christopher Baker</p>
+                <p>BMC Infectious Diseases</p>
+                <p>October 2023</p>
+                <p><a href="#">https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-023-08713-y</a></p>
+            </article>
 
-            <!-- Add more publication boxes for journal articles as needed -->
+            <!-- Add more publication entries as needed -->
+
         </section>
 
-        <section>
-            <h2>Conference Papers</h2>
-
-            <div class="publication-box">
-                <a href="link-to-conference-paper-1" target="_blank">
-                    <img src="path-to-image-3.jpg" alt="Conference Paper 1 Image">
-                    <p>Conference Paper 1</p>
-                </a>
-            </div>
-
-            <div class="publication-box">
-                <a href="link-to-conference-paper-2" target="_blank">
-                    <img src="path-to-image-4.jpg" alt="Conference Paper 2 Image">
-                    <p>Conference Paper 2</p>
-                </a>
-            </div>
-
-            <!-- Add more publication boxes for conference papers as needed -->
-        </section>
-
-        <!-- Add more sections for different types of publications -->
+        <!-- Add more sections as needed -->
 
     </main>
 
     <footer>
-        <p>&copy; 2023 Isobel Abell</p>
+        <p>&copy; 2023 Isobel Abell (with help from ChatGPT)</p>
     </footer>
-
-    <!-- Add any additional scripts or references here -->
 
 </body>
 </html>
