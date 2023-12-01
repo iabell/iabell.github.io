@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isobel Abell</title>
     <style>
+        .flex-wrapper {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e6ffe6; /* Light green background color */
+            background-color: #e6ffe6;
+            /* Light green background color */
             color: #333;
+            min-height: 100vh;
         }
 
         header {
             /* background: url('photos/P9280011.jpg') center/cover no-repeat; Replace with the actual path or URL of your header image */
-            background-color: #4CAF50; /* Dark green header background color */
+            background-color: #4CAF50;
+            /* Dark green header background color */
             color: #fff;
             padding: 2em;
             text-align: center;
@@ -24,19 +35,26 @@
 
 
         header img {
-            width: 120px; /* Adjust the width of the circular photo */
-            height: 120px; /* Adjust the height of the circular photo */
-            border-radius: 50%; /* Create a circular shape */
-            display: block; /* Make the photo a block element */
-            margin: 0 auto 10px; /* Center the photo and add some space below it */
+            width: 120px;
+            /* Adjust the width of the circular photo */
+            height: 120px;
+            /* Adjust the height of the circular photo */
+            border-radius: 50%;
+            /* Create a circular shape */
+            display: block;
+            /* Make the photo a block element */
+            margin: 0 auto 10px;
+            /* Center the photo and add some space below it */
         }
 
         h1 {
-            margin-bottom: 0; /* Remove default margin below the heading */
+            margin-bottom: 0;
+            /* Remove default margin below the heading */
         }
 
         nav {
-            background-color: #45a049; /* Dark green navigation background color */
+            background-color: #45a049;
+            /* Dark green navigation background color */
             padding: 0.5em;
             text-align: center;
         }
@@ -53,6 +71,7 @@
             box-sizing: border-box;
             max-width: 800px;
             margin: 0 auto;
+            flex: 1;
         }
 
         section {
@@ -60,53 +79,68 @@
         }
 
         footer {
-            background-color: #45a049; /* Dark green footer background color */
+            background-color: #45a049;
+            /* Dark green footer background color */
             color: #fff;
             text-align: center;
-            padding: 1em;
-            position: fixed;
+            padding: 0px;
+            position: relative;
             bottom: 0;
             width: 100%;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 16px;
         }
     </style>
 </head>
+
 <body>
 
-    <header>
-        <img src="photos/hiking_square.png" alt="Isobel Abell">
-        <h1>Isobel Abell</h1>
-    </header>
+    <div class="flex-wrapper">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="publications.html">Research</a>
-        <!-- Add more navigation links as needed -->
-    </nav>
 
-    <main>
-        <section>
-            <h2>Thanks for stopping by!</h2>
-            <p>Hi! I'm Isobel Abell, a PhD student at the University of Melbourne in the School of Mathematics and Statistics. My PhD focuses on how we design and communicate mathematical models for decision making. I'm particularly interested in mathematical models of human and animal infectious diseases. </p>
-            <p> Some research I'm currently working on:    
+        <header>
+            <img src="photos/hiking_square.png" alt="Isobel Abell">
+            <h1>Isobel Abell</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="publications.html">Research</a>
+            <!-- Add more navigation links as needed -->
+        </nav>
+
+        <main>
+            <section>
+
+                <p>Hi! I'm Isobel, a PhD student at the University of Melbourne in the School of Mathematics and
+                    Statistics. My PhD focuses on how we design and communicate mathematical models for decision making.
+                    I'm particularly interested in mathematical models of human and animal infectious diseases. </p>
+                <p> Some research I'm currently working on:
                 <ul>
-                    <li>Using network modelling to model the spread of varroa mite through managed and feral western honeybee hives</li>
+                    <li>Using network modelling to model the spread of varroa mite through managed and feral western
+                        honeybee hives</li>
                     <li>Modelling Foot and Mouth Disease (FMD) in Australia</li>
-            </ul></p>
+                </ul>
+                </p>
 
-            <p>When I'm not working on my PhD, you can usually find me knitting or reading in a comfy chair or out on a hike with my partner.</p>
-        </section>
+                <p>When I'm not working on my PhD, you can usually find me knitting or reading in a comfy chair or out
+                    on a hike with my partner.</p>
+            </section>
 
 
 
-        <!-- Add more sections as needed -->
+            <!-- Add more sections as needed -->
 
-    </main>
+        </main>
 
-    <footer>
-        <p> I work and live on the lands of the Wurundjeri people of the Kulin nation. I pay my respects to their elders past, present and emerging.</p>
-        <p>&copy; 2023 Isobel Abell </p>
-    </footer>
-
+        <footer>
+            <p> I live and work on the lands of the Wurundjeri people of the Kulin nation. I pay my respects to their
+                elders past, present and emerging.</p>
+            <p>&copy; 2023 Isobel Abell </p>
+        </footer>
+    </div>
 </body>
+
 </html>
