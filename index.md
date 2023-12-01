@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Isobel Abell
 description: PhD student, the University of Melbourne
 ---
