@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Isobel Abell
+description: PhD student, the University of Melbourne
 ---
 
 # Isobel Abell 
