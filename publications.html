@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isobel Abell - Publications</title>
     <style>
+        .flex-wrapper {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -65,17 +71,23 @@
         }
 
         footer {
-            background-color: #45a049; /* Dark green footer background color */
+            background-color: #45a049;
+            /* Dark green footer background color */
             color: #fff;
             text-align: center;
-            padding: 1em;
-            position: fixed;
+            padding: 0px;
+            position: relative;
             bottom: 0;
             width: 100%;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 16px;
         }
     </style>
 </head>
 <body>
+    <div class="flex-wrapper">
 
     <header>
         <img src="photos/hiking_square.png" alt="Isobel Abell">
@@ -95,20 +107,33 @@
             <!-- Example Publication Entry 1 -->
             <article>
                 <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37288288/">Understanding the impact of disease and vaccine mechanisms on the importance of optimal vaccine allocation </a></h3>
-                <p>Isobel Abell, James McCaw, Christopher Baker</p>
+                <p><b>Isobel Abell</b>, J. McCaw, C. Baker</p>
                 <p>May 2023</p>
             </article>
 
             <!-- Example Publication Entry 2 -->
             <article>
                 <h3><a href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-023-08713-y"> Rapid prototyping of models for COVID-19 outbreak detection in workplaces</a></h3>
-                <p>Isobel Abell, Cameron Zachreson, Eamon Conway, Nicholas Geard, Jodie McVernon, Thomas Waring, Christopher Baker</p>
+                <p><b>Isobel Abell</b>, C. Zachreson, E. Conway, N. Geard, J. McVernon, T. Waring, C. Baker</p>
                 <p>October 2023</p>
             </article>
 
             <!-- Add more publication entries as needed -->
 
         </section>
+
+        <section>
+            <h2> Preprints</h2>
+    
+            <article>
+                <h3><a href="https://www.medrxiv.org/content/10.1101/2023.11.14.23298536v1">Cost-effective boosting allocations in the post-Omicron era of COVID-19 management</a></h3>
+                <!-- authors -->
+                <p>T. P. Le, E. Conway, E. Akpan, <b>Isobel Abell</b>, P. Abraham, C. Baker, P. Campbell, D. Cromer, M. Lydeamore, Y. McDonough, I Mueller, G. Ryan, C. Walker, Y. Wang, J. McVernon, N. Carvalho.</p>
+                <p></p>
+            </article>
+        </section>
+
+        <section>
         <h2>Posters</h2>
         <article>
             <h3><a href="posters/adsn.html">Cost-effective boosting allocations in the post-Omicron era of COVID-19 management</a></h3>
@@ -116,14 +141,19 @@
             <p></p>
         </article>
 
+    </section>
+
+
         <!-- Add more sections as needed -->
+
 
     </main>
 
     <footer>
-        <p> I live and work on the lands of the Wurundjeri people of the Kulin nation. I pay my respects to their elders past, present and emerging.</p>
+        <p> I live and work on the lands of the Wurundjeri people of the Kulin nation. I pay my respects to their
+            elders past, present and emerging.</p>
         <p>&copy; 2023 Isobel Abell </p>
     </footer>
-
+    </div>
 </body>
 </html>
